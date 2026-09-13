@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Jarvis AI</string>
+    <string name="accessibility_service_description">Jarvis ko apps control karne ke liye ye permission chahiye — jaise WhatsApp mein message bhejna ya notifications padhna.</string>
+</resources>
