@@ -15,6 +15,8 @@ class MainApplication : Application(), ReactApplication {
             override fun getPackages(): List<ReactPackage> {
                 val packages = PackageList(this).packages
                 packages.add(YouTubePlayerPackage())
+                packages.add(AudioStreamerPackage())
+                packages.add(AudioPlayerPackage())
                 packages.add(WakeWordPackage())
                 return packages
             }
